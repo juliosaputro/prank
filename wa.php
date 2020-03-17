@@ -16,7 +16,7 @@ for($a=0;$a<$jumlah;$a++) {
 	$rand1 = md5(rand(12345678,98765432));
 	$rand2 = md5(rand(12345678,98765432));
 	$rand = array($rand1,$rand2);
-	$rand3 = md5($rand[rand(1,2)]);
+	$rand3 = md5($rand[rand(20)]);
 	$config['headers'] = explode("\n", "Host: m.bukalapak.com
 Connection: keep-alive
 Content-Length: 134
